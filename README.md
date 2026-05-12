@@ -1,4 +1,4 @@
-# Y-Learn Legal Documents
+# Y-Learn Legal Documents 
 
 This repository hosts the public legal documents for the Y-Learn mobile application.
 
