@@ -17,6 +17,7 @@ After GitHub Pages is enabled, the documents will be available at:
 
 - https://yeriksinggalen.github.io/ylearn-legal/privacy-policy.html
 - https://yeriksinggalen.github.io/ylearn-legal/terms-and-conditions.html
+- https://yeriksinggalen.github.io/ylearn-legal/account-deletion.html
 
 ## Purpose
 
