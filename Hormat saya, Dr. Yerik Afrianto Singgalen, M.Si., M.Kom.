@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Y-Learn Account Deletion Request</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+      background: #fff8f0;
+      color: #222;
+    }
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 32px 20px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+      border: 1px solid #f1e3d2;
+    }
+    h1, h2 {
+      color: #f57c00;
+      line-height: 1.3;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 28px;
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 20px;
+    }
+    .badge {
+      display: inline-block;
+      background: #fff0db;
+      color: #d46a00;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-weight: bold;
+      font-size: 13px;
+      margin-bottom: 14px;
+    }
+    .button {
+      display: inline-block;
+      background: #f57c00;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 12px;
+      font-weight: bold;
+      margin: 8px 0 16px;
+    }
+    .note {
+      background: #fff7ec;
+      border-left: 4px solid #f57c00;
+      padding: 12px 14px;
+      border-radius: 10px;
+      margin: 16px 0;
+    }
+    ul {
+      padding-left: 22px;
+    }
+    footer {
+      margin-top: 28px;
+      color: #666;
+      font-size: 13px;
+    }
+    code {
+      background: #f6f6f6;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <div class="badge">Y-Learn</div>
+      <h1>Account Deletion Request</h1>
+
+      <p>
+        This page explains how Y-Learn users can request deletion of their app account and associated personal data.
+        Y-Learn is an educational application that supports student and lecturer learning workflows, including courses,
+        sessions, assignments, submissions, rubrics, feedback, grading, and final grades.
+      </p>
+
+      <h2>How to request account deletion</h2>
+      <p>
+        To request deletion of your Y-Learn account, please send an email to the developer/support contact below.
+      </p>
+
+      <p>
+        <a class="button" href="mailto:YOUR_SUPPORT_EMAIL_HERE?subject=Y-Learn%20Account%20Deletion%20Request&body=Hello%20Y-Learn%20Support%2C%0A%0AI%20would%20like%20to%20request%20deletion%20of%20my%20Y-Learn%20account.%0A%0ARegistered%20email%3A%20%0AAccount%20role%20(Student%2FLecturer)%3A%20%0AReason%20(optional)%3A%20%0A%0AThank%20you.">
+          Request Account Deletion by Email
+        </a>
+      </p>
+
+      <p>
+        If the button does not open your email app, send your request manually to:
+      </p>
+
+      <p>
+        <strong>Support email:</strong> <code>YOUR_SUPPORT_EMAIL_HERE</code>
+      </p>
+
+      <h2>Information to include in your request</h2>
+      <ul>
+        <li>Your registered Y-Learn email address.</li>
+        <li>Your account role, such as Student or Lecturer.</li>
+        <li>A clear statement that you want your Y-Learn account deleted.</li>
+        <li>Optional: your reason for requesting deletion.</li>
+      </ul>
+
+      <h2>What data may be deleted</h2>
+      <p>
+        When your request is verified, Y-Learn may delete or deactivate account-related personal data such as:
+      </p>
+      <ul>
+        <li>Login account information.</li>
+        <li>Name and email address associated with the app account.</li>
+        <li>Profile information and profile photo preference, where applicable.</li>
+        <li>Non-essential user profile records connected to the app account.</li>
+      </ul>
+
+      <h2>Academic records that may be retained</h2>
+      <div class="note">
+        Some academic data may be retained where necessary for legitimate academic, administrative, security,
+        compliance, or record-keeping purposes.
+      </div>
+
+      <p>
+        Academic records that may be retained can include course enrollment, assignment submissions, quiz attempts,
+        grades, final grades, lecturer feedback, learning history, and other records required to preserve official
+        academic assessment history.
+      </p>
+
+      <h2>Processing time</h2>
+      <p>
+        Account deletion requests are reviewed and processed within a reasonable period after the request is received
+        and the account owner is verified. Additional verification may be required to protect the account from
+        unauthorized deletion requests.
+      </p>
+
+      <h2>Indonesian Summary</h2>
+      <p>
+        Pengguna Y-Learn dapat meminta penghapusan akun dengan mengirim email ke kontak support/developer.
+        Sertakan email terdaftar, peran akun, dan pernyataan bahwa akun Y-Learn ingin dihapus.
+      </p>
+
+      <p>
+        Sebagian data akademik seperti enrollment, submission, nilai, final grade, feedback dosen, dan riwayat
+        pembelajaran dapat tetap disimpan sebagai catatan akademik resmi apabila diperlukan.
+      </p>
+
+      <footer>
+        Last updated: May 2026<br />
+        App: Y-Learn<br />
+        Developer: Yerik Afrianto Singgalen
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
