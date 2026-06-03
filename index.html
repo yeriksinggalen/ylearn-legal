@@ -57,32 +57,123 @@
       background: #fff4e5;
       border: 1px solid #ffd8a8;
     }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: bold;
+      color: #0f766e;
+      background: #e6f4f2;
+      border: 1px solid #b2dcd7;
+      border-radius: 6px;
+      padding: 2px 8px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+    .url-block {
+      margin-top: 8px;
+      font-size: 13px;
+      color: #888;
+      word-break: break-all;
+    }
+    .url-block a {
+      font-weight: normal;
+      font-size: 13px;
+      color: #aaa;
+    }
+    .url-block a:hover {
+      color: #f28c00;
+    }
+    .about-section {
+      margin-top: 10px;
+      font-size: 15px;
+      color: #444;
+    }
+    .purpose-box {
+      margin-top: 24px;
+      padding: 16px 18px;
+      background: #f0faf8;
+      border-left: 4px solid #0f766e;
+      border-radius: 0 10px 10px 0;
+      font-size: 14px;
+      color: #333;
+    }
+    .copyright-box {
+      margin-top: 16px;
+      padding: 14px 18px;
+      background: #fff8ee;
+      border-left: 4px solid #f28c00;
+      border-radius: 0 10px 10px 0;
+      font-size: 13px;
+      color: #555;
+    }
   </style>
 </head>
 <body>
   <main class="container">
     <section class="card">
       <h1>Y-Learn Legal Documents</h1>
-      <p>
-        This page provides public access to the legal documents for the Y-Learn mobile application.
+
+      <p class="about-section">
+        This repository hosts the public legal documents for the <strong>Y-Learn</strong> mobile application.
+        Y-Learn is a mobile learning platform designed to support students and lecturers in managing courses,
+        learning sessions, quizzes, link-based assignments, grades, academic feedback, and learning analytics.
       </p>
 
-      <h2>Available Documents</h2>
-
+      <h2>Public Legal Pages</h2>
       <div class="links">
+
         <div class="link-card">
           <a href="privacy-policy.html">Privacy Policy</a>
           <p>
-            Explains how Y-Learn collects, uses, stores, and protects user data.
+            Explains how Y-Learn collects, uses, stores, and protects user data, including academic records
+            and personal information of students and lecturers.
           </p>
+          <div class="url-block">
+            <a href="https://yeriksinggalen.github.io/ylearn-legal/privacy-policy.html" target="_blank">
+              https://yeriksinggalen.github.io/ylearn-legal/privacy-policy.html
+            </a>
+          </div>
         </div>
 
         <div class="link-card">
           <a href="terms-and-conditions.html">Terms and Conditions</a>
           <p>
-            Explains the terms for using Y-Learn as a student or lecturer.
+            Covers the terms of use for Y-Learn, including account responsibilities, acceptable use,
+            and platform usage terms for students and lecturers.
           </p>
+          <div class="url-block">
+            <a href="https://yeriksinggalen.github.io/ylearn-legal/terms-and-conditions.html" target="_blank">
+              https://yeriksinggalen.github.io/ylearn-legal/terms-and-conditions.html
+            </a>
+          </div>
         </div>
+
+        <div class="link-card">
+          <a href="account-deletion.html">Account Deletion</a>
+          <span class="badge">New</span>
+          <p>
+            Provides instructions and information on how users can request deletion of their
+            Y-Learn account and associated data.
+          </p>
+          <div class="url-block">
+            <a href="https://yeriksinggalen.github.io/ylearn-legal/account-deletion.html" target="_blank">
+              https://yeriksinggalen.github.io/ylearn-legal/account-deletion.html
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="purpose-box">
+        <strong>Purpose:</strong> These pages are used in the Y-Learn application registration screen and
+        settings page to inform users about data handling, academic records, account responsibilities,
+        and application usage terms.
+      </div>
+
+      <div class="copyright-box">
+        Copyright &copy; 2026 Dr. Yerik Afrianto Singgalen. All rights reserved.<br />
+        The content in this repository is provided for public viewing only as Y-Learn legal documentation.
+        Reuse, modification, redistribution, or republication is not permitted without prior written permission.
       </div>
 
       <div class="footer">
